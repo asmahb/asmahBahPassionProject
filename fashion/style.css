@@ -1,0 +1,57 @@
+body{
+    background-color: beige;
+}
+
+.firstOpeningStatement{
+    font-family: 'Cairo', sans-serif;
+    padding: 5px;
+    margin: 10px;
+}
+
+.secondOpeningStatement{
+    font-family: 'Cairo', sans-serif;
+    padding: 5px;
+    margin:10px;
+}
+
+.form{
+    border-style: solid;
+    padding: 50px;
+    margin: 20px;
+}
+
+#images{
+    text-align: center;
+    color:brown;
+    background-color:peachpuff;
+    font-family: 'Arvo', serif;
+}
+
+#heading{
+    color:powderblue;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.influencers{
+    color:rosybrown;
+    padding:15px;
+    margin:2px;
+}
+
+#secondHeading{
+    font-family: 'Arvo', serif;
+    color:lightcoral;
+}
+
+.links{
+    color:rosybrown;
+    padding:15px;
+    margin:2px;
+}
+
+#thirdHeading{
+    font-family: 'Arvo', serif;
+    color:lightcoral;
+}
+
