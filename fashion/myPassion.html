@@ -26,10 +26,11 @@
         </div>
         
        <p id="images">These images represent modest fashion</p> 
-        <img src="https://i.pinimg.com/originals/06/b4/ac/06b4ac5386073e415aa8b14364f5d0cc.jpg" "width:100%">
-        <img src="https://i.pinimg.com/originals/46/be/e5/46bee50f544dc5f1d2f75718c31986a3.jpg" "width:100%">
-        <img src="https://i.pinimg.com/originals/80/9d/dd/809ddd8afca3cc3f9157a99c381ea966.jpg" "width:100%">
-
+        <div class="pictures">
+            <img src="https://i.pinimg.com/originals/06/b4/ac/06b4ac5386073e415aa8b14364f5d0cc.jpg" width="400">
+            <img src="https://i.pinimg.com/originals/80/9d/dd/809ddd8afca3cc3f9157a99c381ea966.jpg" width="500">
+            <img src="https://i.pinimg.com/originals/46/be/e5/46bee50f544dc5f1d2f75718c31986a3.jpg" width="400">
+        </div>
         
         <div class="influencers">
             <ul>
@@ -72,14 +73,18 @@
                 Chic <br>
                 <input type="radio" name="radial" value="Casual"> 
                 Casual <br>
+                <br>
 
-                <datalist id="favorite color"></datalist>
-                <option value="blue"></option>
-                <option value="red"></option>
-                <option value="pink"></option>
-                <option value= "yellow"></option>
+                <label for="favoriteColor">Choose your favorite color from the list:</label>
+                <input list="favoriteColor" name="favoriteColor" id="favoriteColor">
 
-                <input type="submit" name="Submit"
+                <datalist id="favoriteColor">
+                    <option value="blue"></option>
+                    <option value="red"></option>
+                    <option value="pink"></option>
+                    <option value= "yellow"></option>
+                </datalist>
+                <input type="submit" name="Submit">
 
             </form>
         </div>
